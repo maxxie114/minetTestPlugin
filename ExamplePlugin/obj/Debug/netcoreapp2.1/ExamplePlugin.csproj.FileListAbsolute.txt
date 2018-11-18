@@ -1,0 +1,13 @@
+/home/max/C#/ExamplePlugin/bin/Debug/netcoreapp2.1/Blocks/blockstates.json
+/home/max/C#/ExamplePlugin/bin/Debug/netcoreapp2.1/ExamplePlugin.deps.json
+/home/max/C#/ExamplePlugin/bin/Debug/netcoreapp2.1/ExamplePlugin.dll
+/home/max/C#/ExamplePlugin/bin/Debug/netcoreapp2.1/ExamplePlugin.pdb
+/home/max/C#/ExamplePlugin/bin/Debug/netcoreapp2.1/MiNET.dll
+/home/max/C#/ExamplePlugin/bin/Debug/netcoreapp2.1/MiNET.pdb
+/home/max/C#/ExamplePlugin/obj/Debug/netcoreapp2.1/ExamplePlugin.csprojAssemblyReference.cache
+/home/max/C#/ExamplePlugin/obj/Debug/netcoreapp2.1/ExamplePlugin.csproj.CoreCompileInputs.cache
+/home/max/C#/ExamplePlugin/obj/Debug/netcoreapp2.1/ExamplePlugin.AssemblyInfoInputs.cache
+/home/max/C#/ExamplePlugin/obj/Debug/netcoreapp2.1/ExamplePlugin.AssemblyInfo.cs
+/home/max/C#/ExamplePlugin/obj/Debug/netcoreapp2.1/ExamplePlugin.csproj.CopyComplete
+/home/max/C#/ExamplePlugin/obj/Debug/netcoreapp2.1/ExamplePlugin.dll
+/home/max/C#/ExamplePlugin/obj/Debug/netcoreapp2.1/ExamplePlugin.pdb
