@@ -1,2 +1,4 @@
 # minetTestPlugin
-This is a MiNET plugin that is in-development
+This is a my first MiNET plugin
+
+
