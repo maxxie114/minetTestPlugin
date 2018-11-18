@@ -13,18 +13,18 @@ namespace ExamplePlugin
         private static readonly ILog Log = LogManager.GetLogger(typeof (ExamplePlugin));
         protected override void OnEnable()
         {
-            Log.Debug("Plugin enabled");
+            Log.Warn("Plugin enabled");
         }
 
         public override void OnDisable()
         {
-            Log.Debug("Plugin disabled.");
+            Log.Warn("Plugin disabled.");
         }
 
-        [Command(Name="example")]
-        public void example(Player player)
+        [Command(Name = "example",Description = "just an example plugin")]
+        public void Example(Player player)
         {
-            player.SendMessage("Hello world!");
+            player.SendMessage("Hello!" + player.Username);
         }
 
     }

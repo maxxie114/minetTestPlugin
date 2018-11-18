@@ -1,14 +1,15 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "88fbd49598092b54b819a10ad957a49d65cb88df"
+    "signature": "7de1d9827506b44b3b9e3550a8ec51562d41ff9e"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "ExamplePlugin/1.0.0": {
         "dependencies": {
-          "MiNET": "0.0.0"
+          "MiNET": "1.0.1927",
+          "Nuget": "0.0.1"
         },
         "runtime": {
           "ExamplePlugin.dll": {}
@@ -121,6 +122,27 @@
           }
         }
       },
+      "MiNET/1.0.1927": {
+        "dependencies": {
+          "CoreCompat.System.Drawing.v2": "5.2.0-preview1-r131",
+          "LibNoise.NetStandart": "0.2.0",
+          "MiNET.astar": "1.0.14",
+          "MiNET.fnbt": "1.0.17",
+          "Microsoft.IO.RecyclableMemoryStream": "1.2.2",
+          "Newtonsoft.Json": "11.0.2",
+          "Portable.BouncyCastle": "1.8.2",
+          "SharpAvi": "2.1.1",
+          "System.Security.Cryptography.ProtectedData": "4.5.0",
+          "jose-jwt": "2.4.0",
+          "log4net": "2.0.8"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/MiNET.dll": {
+            "assemblyVersion": "1.0.1927.0",
+            "fileVersion": "1.0.1927.0"
+          }
+        }
+      },
       "MiNET.astar/1.0.14": {
         "runtime": {
           "lib/netcoreapp2.1/AStarNavigator.dll": {
@@ -142,6 +164,14 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "Nuget/0.0.1": {
+        "runtime": {
+          "lib/net40/NugetTest.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -1107,24 +1137,6 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.0.11"
         }
-      },
-      "MiNET/0.0.0": {
-        "dependencies": {
-          "CoreCompat.System.Drawing.v2": "5.2.0-preview1-r131",
-          "LibNoise.NetStandart": "0.2.0",
-          "MiNET.astar": "1.0.14",
-          "MiNET.fnbt": "1.0.17",
-          "Microsoft.IO.RecyclableMemoryStream": "1.2.2",
-          "Newtonsoft.Json": "11.0.2",
-          "Portable.BouncyCastle": "1.8.2",
-          "SharpAvi": "2.1.1",
-          "System.Security.Cryptography.ProtectedData": "4.5.0",
-          "jose-jwt": "2.4.0",
-          "log4net": "2.0.8"
-        },
-        "runtime": {
-          "MiNET.dll": {}
-        }
       }
     }
   },
@@ -1183,6 +1195,13 @@
       "path": "microsoft.win32.registry/4.0.0",
       "hashPath": "microsoft.win32.registry.4.0.0.nupkg.sha512"
     },
+    "MiNET/1.0.1927": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fOVLWukOfRJ4gR3mwOi88X361kOGNZQK+FivOnCba3a8MMXWnKxEbyO6WGNL/IByp5zszvNrAi6kMgLWQ30dcQ==",
+      "path": "minet/1.0.1927",
+      "hashPath": "minet.1.0.1927.nupkg.sha512"
+    },
     "MiNET.astar/1.0.14": {
       "type": "package",
       "serviceable": true,
@@ -1203,6 +1222,13 @@
       "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "Nuget/0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4FLyUcjUeAuv8teko+8C8q91i4Wth0W+wuldKwOWyvNWzNsp31Pvl3jFfNBCysCdo88+DcPz0cs3ZZ2n+xeoEg==",
+      "path": "nuget/0.0.1",
+      "hashPath": "nuget.0.0.1.nupkg.sha512"
     },
     "Portable.BouncyCastle/1.8.2": {
       "type": "package",
@@ -1791,11 +1817,6 @@
       "sha512": "sha512-2eZu6IP+etFVBBFUFzw2w6J21DqIN5eL9Y8r8JfJWUmV28Z5P0SNU01oCisVHQgHsDhHPnmq2s1hJrJCFZWloQ==",
       "path": "system.xml.xmldocument/4.0.1",
       "hashPath": "system.xml.xmldocument.4.0.1.nupkg.sha512"
-    },
-    "MiNET/0.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

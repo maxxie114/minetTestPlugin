@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../MiNET/MiNET.csproj" />
+    <PackageReference Include="MiNET" Version="1.0.1927" />
+    <PackageReference Include="Nuget" Version="0.0.1" />
   </ItemGroup>
 
 </Project>

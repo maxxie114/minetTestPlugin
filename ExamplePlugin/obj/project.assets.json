@@ -316,6 +316,28 @@
           }
         }
       },
+      "MiNET/1.0.1927": {
+        "type": "package",
+        "dependencies": {
+          "CoreCompat.System.Drawing.v2": "5.2.0-preview1-r131",
+          "LibNoise.NetStandart": "0.2.0",
+          "MiNET.astar": "1.0.14",
+          "MiNET.fnbt": "1.0.17",
+          "Microsoft.IO.RecyclableMemoryStream": "1.2.2",
+          "Newtonsoft.Json": "11.0.2",
+          "Portable.BouncyCastle": "1.8.2",
+          "SharpAvi": "2.1.1",
+          "System.Security.Cryptography.ProtectedData": "4.5.0",
+          "jose-jwt": "2.4.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/MiNET.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/MiNET.dll": {}
+        }
+      },
       "MiNET.astar/1.0.14": {
         "type": "package",
         "compile": {
@@ -356,6 +378,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Nuget/0.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/NugetTest.dll": {}
+        },
+        "runtime": {
+          "lib/net40/NugetTest.dll": {}
         }
       },
       "Portable.BouncyCastle/1.8.2": {
@@ -1791,29 +1822,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
-      },
-      "MiNET/0.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "CoreCompat.System.Drawing.v2": "5.2.0-preview1-r131",
-          "LibNoise.NetStandart": "0.2.0",
-          "MiNET.astar": "1.0.14",
-          "MiNET.fnbt": "1.0.17",
-          "Microsoft.IO.RecyclableMemoryStream": "1.2.2",
-          "Newtonsoft.Json": "11.0.2",
-          "Portable.BouncyCastle": "1.8.2",
-          "SharpAvi": "2.1.1",
-          "System.Security.Cryptography.ProtectedData": "4.5.0",
-          "jose-jwt": "2.4.0",
-          "log4net": "2.0.8"
-        },
-        "compile": {
-          "bin/placeholder/MiNET.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MiNET.dll": {}
-        }
       }
     }
   },
@@ -2288,6 +2296,17 @@
         "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll"
       ]
     },
+    "MiNET/1.0.1927": {
+      "sha512": "fOVLWukOfRJ4gR3mwOi88X361kOGNZQK+FivOnCba3a8MMXWnKxEbyO6WGNL/IByp5zszvNrAi6kMgLWQ30dcQ==",
+      "type": "package",
+      "path": "minet/1.0.1927",
+      "files": [
+        ".signature.p7s",
+        "lib/netcoreapp2.1/MiNET.dll",
+        "minet.1.0.1927.nupkg.sha512",
+        "minet.nuspec"
+      ]
+    },
     "MiNET.astar/1.0.14": {
       "sha512": "peo3NpYYeBxG7tWrxEfnDA1iHjlftpmZ1+5MXSKyd5renx34D5s288xatmCyO1Wll6Z/dSg+9I8Yv+hbwLMRVA==",
       "type": "package",
@@ -2461,6 +2480,17 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.11.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "Nuget/0.0.1": {
+      "sha512": "4FLyUcjUeAuv8teko+8C8q91i4Wth0W+wuldKwOWyvNWzNsp31Pvl3jFfNBCysCdo88+DcPz0cs3ZZ2n+xeoEg==",
+      "type": "package",
+      "path": "nuget/0.0.1",
+      "files": [
+        "content/Info.txt",
+        "lib/net40/NugetTest.dll",
+        "nuget.0.0.1.nupkg.sha512",
+        "nuget.nuspec"
       ]
     },
     "Portable.BouncyCastle/1.8.2": {
@@ -5934,17 +5964,13 @@
         "system.xml.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
-    },
-    "MiNET/0.0.0": {
-      "type": "project",
-      "path": "../MiNET/MiNET.csproj",
-      "msbuildProject": "../MiNET/MiNET.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "MiNET >= 0.0.0",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "MiNET >= 1.0.1927",
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Nuget >= 0.0.1"
     ]
   },
   "packageFolders": {
@@ -5954,11 +5980,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/max/C#/ExamplePlugin/ExamplePlugin.csproj",
+      "projectUniqueName": "/home/max/C#/minetTestPlugin/ExamplePlugin/ExamplePlugin.csproj",
       "projectName": "ExamplePlugin",
-      "projectPath": "/home/max/C#/ExamplePlugin/ExamplePlugin.csproj",
+      "projectPath": "/home/max/C#/minetTestPlugin/ExamplePlugin/ExamplePlugin.csproj",
       "packagesPath": "/home/max/.nuget/packages/",
-      "outputPath": "/home/max/C#/ExamplePlugin/obj/",
+      "outputPath": "/home/max/C#/minetTestPlugin/ExamplePlugin/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5974,11 +6000,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {
-            "/home/max/C#/MiNET/MiNET.csproj": {
-              "projectPath": "/home/max/C#/MiNET/MiNET.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -5990,11 +6012,19 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "MiNET": {
+            "target": "Package",
+            "version": "[1.0.1927, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "Nuget": {
+            "target": "Package",
+            "version": "[0.0.1, )"
           }
         },
         "imports": [
@@ -6006,6 +6036,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Nuget 0.0.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Nuget",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
